@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* Start reset styles */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* End reset */
+
+html, body { height: 100%; }
+.container { width: 100%; min-height: 100%; background: url(../img/default_xxl.jpg) no-repeat 0 0; }
+
+.picker { width: 200px; height: 20px; position: fixed; top: 50%; left: 50%; margin-top: -10px; margin-left: -100px; }
+
+.carousel_bee { background-image: url(../img/bee_xxl.jpg); }
+.carousel_butterfly { background-image: url(../img/butterfly_xxl.jpg); }
+.carousel_spider { background-image: url(../img/spider_xxl.jpg); }
+.carousel_threebutterflies { background-image: url(../img/threebutterflies_xxl.jpg); }
+.carousel_owl { background-image: url(../img/owl_xxl.jpg); }
+.carousel_robin { background-image: url(../img/robin_xxl.jpg); }
+.carousel_seagull { background-image: url(../img/seagull_xxl.jpg); }
+.carousel_yellowbird { background-image: url(../img/yellowbird_xxl.jpg); }
+.carousel_feathertulip { background-image: url(../img/feathertulip_xxl.jpg); }
+.carousel_rose { background-image: url(../img/rose_xxl.jpg); }
+.carousel_sunflower { background-image: url(../img/sunflower_xxl.jpg); }
+.carousel_tulip { background-image: url(../img/tulip_xxl.jpg); }
+.carousel_autumnlake { background-image: url(../img/autumnlake_xxl.jpg); }
+.carousel_desert { background-image: url(../img/desert_xxl.jpg); }
+.carousel_mountainlake { background-image: url(../img/mountainlake_xxl.jpg); }
+.carousel_snowmountains { background-image: url(../img/snowmountains_xxl.jpg); }
+
+@media only screen and (max-width: 1440px) {
+	.container { background-image: url(../img/default_xl.jpg); }
+	.carousel_bee { background-image: url(../img/bee_xl.jpg); }
+	.carousel_butterfly { background-image: url(../img/butterfly_xl.jpg); }
+	.carousel_spider { background-image: url(../img/spider_xl.jpg); }
+	.carousel_threebutterflies { background-image: url(../img/threebutterflies_xl.jpg); }
+	.carousel_owl { background-image: url(../img/owl_xl.jpg); }
+	.carousel_robin { background-image: url(../img/robin_xl.jpg); }
+	.carousel_seagull { background-image: url(../img/seagull_xl.jpg); }
+	.carousel_yellowbird { background-image: url(../img/yellowbird_xl.jpg); }
+	.carousel_feathertulip { background-image: url(../img/feathertulip_xl.jpg); }
+	.carousel_rose { background-image: url(../img/rose_xl.jpg); }
+	.carousel_sunflower { background-image: url(../img/sunflower_xl.jpg); }
+	.carousel_tulip { background-image: url(../img/tulip_xl.jpg); }
+	.carousel_autumnlake { background-image: url(../img/autumnlake_xl.jpg); }
+	.carousel_desert { background-image: url(../img/desert_xl.jpg); }
+	.carousel_mountainlake { background-image: url(../img/mountainlake_xl.jpg); }
+	.carousel_snowmountains { background-image: url(../img/snowmountains_xl.jpg); }
+}
+
+@media only screen and (max-width: 1280px) {
+	.container { background-image: url(../img/default_l.jpg); }
+	.carousel_bee { background-image: url(../img/bee_l.jpg); }
+	.carousel_butterfly { background-image: url(../img/butterfly_l.jpg); }
+	.carousel_spider { background-image: url(../img/spider_l.jpg); }
+	.carousel_threebutterflies { background-image: url(../img/threebutterflies_l.jpg); }
+	.carousel_owl { background-image: url(../img/owl_l.jpg); }
+	.carousel_robin { background-image: url(../img/robin_l.jpg); }
+	.carousel_seagull { background-image: url(../img/seagull_l.jpg); }
+	.carousel_yellowbird { background-image: url(../img/yellowbird_l.jpg); }
+	.carousel_feathertulip { background-image: url(../img/feathertulip_l.jpg); }
+	.carousel_rose { background-image: url(../img/rose_l.jpg); }
+	.carousel_sunflower { background-image: url(../img/sunflower_l.jpg); }
+	.carousel_tulip { background-image: url(../img/tulip_l.jpg); }
+	.carousel_autumnlake { background-image: url(../img/autumnlake_l.jpg); }
+	.carousel_desert { background-image: url(../img/desert_l.jpg); }
+	.carousel_mountainlake { background-image: url(../img/mountainlake_l.jpg); }
+	.carousel_snowmountains { background-image: url(../img/snowmountains_l.jpg); }
+}
+
+@media only screen and (max-width: 640px) {
+	.container { background-image: url(../img/default_m.jpg); }
+	.carousel_bee { background-image: url(../img/bee_m.jpg); }
+	.carousel_butterfly { background-image: url(../img/butterfly_m.jpg); }
+	.carousel_spider { background-image: url(../img/spider_m.jpg); }
+	.carousel_threebutterflies { background-image: url(../img/threebutterflies_m.jpg); }
+	.carousel_owl { background-image: url(../img/owl_m.jpg); }
+	.carousel_robin { background-image: url(../img/robin_m.jpg); }
+	.carousel_seagull { background-image: url(../img/seagull_m.jpg); }
+	.carousel_yellowbird { background-image: url(../img/yellowbird_m.jpg); }
+	.carousel_feathertulip { background-image: url(../img/feathertulip_m.jpg); }
+	.carousel_rose { background-image: url(../img/rose_m.jpg); }
+	.carousel_sunflower { background-image: url(../img/sunflower_m.jpg); }
+	.carousel_tulip { background-image: url(../img/tulip_m.jpg); }
+	.carousel_autumnlake { background-image: url(../img/autumnlake_m.jpg); }
+	.carousel_desert { background-image: url(../img/desert_m.jpg); }
+	.carousel_mountainlake { background-image: url(../img/mountainlake_m.jpg); }
+	.carousel_snowmountains { background-image: url(../img/snowmountains_m.jpg); }
+}
+
+
+@media only screen and (max-width: 320px) {
+	.container { background-image: url(../img/default_s.jpg); }
+	.carousel_bee { background-image: url(../img/bee_s.jpg); }
+	.carousel_butterfly { background-image: url(../img/butterfly_s.jpg); }
+	.carousel_spider { background-image: url(../img/spider_s.jpg); }
+	.carousel_threebutterflies { background-image: url(../img/threebutterflies_s.jpg); }
+	.carousel_owl { background-image: url(../img/owl_s.jpg); }
+	.carousel_robin { background-image: url(../img/robin_s.jpg); }
+	.carousel_seagull { background-image: url(../img/seagull_s.jpg); }
+	.carousel_yellowbird { background-image: url(../img/yellowbird_s.jpg); }
+	.carousel_feathertulip { background-image: url(../img/feathertulip_s.jpg); }
+	.carousel_rose { background-image: url(../img/rose_s.jpg); }
+	.carousel_sunflower { background-image: url(../img/sunflower_s.jpg); }
+	.carousel_tulip { background-image: url(../img/tulip_s.jpg); }
+	.carousel_autumnlake { background-image: url(../img/autumnlake_s.jpg); }
+	.carousel_desert { background-image: url(../img/desert_s.jpg); }
+	.carousel_mountainlake { background-image: url(../img/mountainlake_s.jpg); }
+	.carousel_snowmountains { background-image: url(../img/snowmountains_s.jpg); }
+}
+
+
+
+
