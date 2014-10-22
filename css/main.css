@@ -14,12 +14,12 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { display: block; }
 body { line-height: 1; }
 ol, ul { list-style: none; }
@@ -52,84 +52,84 @@ html, body { height: 100%; }
 .carousel_snowmountains { background-image: url(../img/snowmountains_xxl.jpg); }
 
 @media only screen and (max-width: 1440px) {
-	.container { background-image: url(../img/default_xl.jpg); }
-	.carousel_bee { background-image: url(../img/bee_xl.jpg); }
-	.carousel_butterfly { background-image: url(../img/butterfly_xl.jpg); }
-	.carousel_spider { background-image: url(../img/spider_xl.jpg); }
-	.carousel_threebutterflies { background-image: url(../img/threebutterflies_xl.jpg); }
-	.carousel_owl { background-image: url(../img/owl_xl.jpg); }
-	.carousel_robin { background-image: url(../img/robin_xl.jpg); }
-	.carousel_seagull { background-image: url(../img/seagull_xl.jpg); }
-	.carousel_yellowbird { background-image: url(../img/yellowbird_xl.jpg); }
-	.carousel_feathertulip { background-image: url(../img/feathertulip_xl.jpg); }
-	.carousel_rose { background-image: url(../img/rose_xl.jpg); }
-	.carousel_sunflower { background-image: url(../img/sunflower_xl.jpg); }
-	.carousel_tulip { background-image: url(../img/tulip_xl.jpg); }
-	.carousel_autumnlake { background-image: url(../img/autumnlake_xl.jpg); }
-	.carousel_desert { background-image: url(../img/desert_xl.jpg); }
-	.carousel_mountainlake { background-image: url(../img/mountainlake_xl.jpg); }
-	.carousel_snowmountains { background-image: url(../img/snowmountains_xl.jpg); }
+  .container { background-image: url(../img/default_xl.jpg); }
+  .carousel_bee { background-image: url(../img/bee_xl.jpg); }
+  .carousel_butterfly { background-image: url(../img/butterfly_xl.jpg); }
+  .carousel_spider { background-image: url(../img/spider_xl.jpg); }
+  .carousel_threebutterflies { background-image: url(../img/threebutterflies_xl.jpg); }
+  .carousel_owl { background-image: url(../img/owl_xl.jpg); }
+  .carousel_robin { background-image: url(../img/robin_xl.jpg); }
+  .carousel_seagull { background-image: url(../img/seagull_xl.jpg); }
+  .carousel_yellowbird { background-image: url(../img/yellowbird_xl.jpg); }
+  .carousel_feathertulip { background-image: url(../img/feathertulip_xl.jpg); }
+  .carousel_rose { background-image: url(../img/rose_xl.jpg); }
+  .carousel_sunflower { background-image: url(../img/sunflower_xl.jpg); }
+  .carousel_tulip { background-image: url(../img/tulip_xl.jpg); }
+  .carousel_autumnlake { background-image: url(../img/autumnlake_xl.jpg); }
+  .carousel_desert { background-image: url(../img/desert_xl.jpg); }
+  .carousel_mountainlake { background-image: url(../img/mountainlake_xl.jpg); }
+  .carousel_snowmountains { background-image: url(../img/snowmountains_xl.jpg); }
 }
 
 @media only screen and (max-width: 1280px) {
-	.container { background-image: url(../img/default_l.jpg); }
-	.carousel_bee { background-image: url(../img/bee_l.jpg); }
-	.carousel_butterfly { background-image: url(../img/butterfly_l.jpg); }
-	.carousel_spider { background-image: url(../img/spider_l.jpg); }
-	.carousel_threebutterflies { background-image: url(../img/threebutterflies_l.jpg); }
-	.carousel_owl { background-image: url(../img/owl_l.jpg); }
-	.carousel_robin { background-image: url(../img/robin_l.jpg); }
-	.carousel_seagull { background-image: url(../img/seagull_l.jpg); }
-	.carousel_yellowbird { background-image: url(../img/yellowbird_l.jpg); }
-	.carousel_feathertulip { background-image: url(../img/feathertulip_l.jpg); }
-	.carousel_rose { background-image: url(../img/rose_l.jpg); }
-	.carousel_sunflower { background-image: url(../img/sunflower_l.jpg); }
-	.carousel_tulip { background-image: url(../img/tulip_l.jpg); }
-	.carousel_autumnlake { background-image: url(../img/autumnlake_l.jpg); }
-	.carousel_desert { background-image: url(../img/desert_l.jpg); }
-	.carousel_mountainlake { background-image: url(../img/mountainlake_l.jpg); }
-	.carousel_snowmountains { background-image: url(../img/snowmountains_l.jpg); }
+  .container { background-image: url(../img/default_l.jpg); }
+  .carousel_bee { background-image: url(../img/bee_l.jpg); }
+  .carousel_butterfly { background-image: url(../img/butterfly_l.jpg); }
+  .carousel_spider { background-image: url(../img/spider_l.jpg); }
+  .carousel_threebutterflies { background-image: url(../img/threebutterflies_l.jpg); }
+  .carousel_owl { background-image: url(../img/owl_l.jpg); }
+  .carousel_robin { background-image: url(../img/robin_l.jpg); }
+  .carousel_seagull { background-image: url(../img/seagull_l.jpg); }
+  .carousel_yellowbird { background-image: url(../img/yellowbird_l.jpg); }
+  .carousel_feathertulip { background-image: url(../img/feathertulip_l.jpg); }
+  .carousel_rose { background-image: url(../img/rose_l.jpg); }
+  .carousel_sunflower { background-image: url(../img/sunflower_l.jpg); }
+  .carousel_tulip { background-image: url(../img/tulip_l.jpg); }
+  .carousel_autumnlake { background-image: url(../img/autumnlake_l.jpg); }
+  .carousel_desert { background-image: url(../img/desert_l.jpg); }
+  .carousel_mountainlake { background-image: url(../img/mountainlake_l.jpg); }
+  .carousel_snowmountains { background-image: url(../img/snowmountains_l.jpg); }
 }
 
 @media only screen and (max-width: 640px) {
-	.container { background-image: url(../img/default_m.jpg); }
-	.carousel_bee { background-image: url(../img/bee_m.jpg); }
-	.carousel_butterfly { background-image: url(../img/butterfly_m.jpg); }
-	.carousel_spider { background-image: url(../img/spider_m.jpg); }
-	.carousel_threebutterflies { background-image: url(../img/threebutterflies_m.jpg); }
-	.carousel_owl { background-image: url(../img/owl_m.jpg); }
-	.carousel_robin { background-image: url(../img/robin_m.jpg); }
-	.carousel_seagull { background-image: url(../img/seagull_m.jpg); }
-	.carousel_yellowbird { background-image: url(../img/yellowbird_m.jpg); }
-	.carousel_feathertulip { background-image: url(../img/feathertulip_m.jpg); }
-	.carousel_rose { background-image: url(../img/rose_m.jpg); }
-	.carousel_sunflower { background-image: url(../img/sunflower_m.jpg); }
-	.carousel_tulip { background-image: url(../img/tulip_m.jpg); }
-	.carousel_autumnlake { background-image: url(../img/autumnlake_m.jpg); }
-	.carousel_desert { background-image: url(../img/desert_m.jpg); }
-	.carousel_mountainlake { background-image: url(../img/mountainlake_m.jpg); }
-	.carousel_snowmountains { background-image: url(../img/snowmountains_m.jpg); }
+  .container { background-image: url(../img/default_m.jpg); }
+  .carousel_bee { background-image: url(../img/bee_m.jpg); }
+  .carousel_butterfly { background-image: url(../img/butterfly_m.jpg); }
+  .carousel_spider { background-image: url(../img/spider_m.jpg); }
+  .carousel_threebutterflies { background-image: url(../img/threebutterflies_m.jpg); }
+  .carousel_owl { background-image: url(../img/owl_m.jpg); }
+  .carousel_robin { background-image: url(../img/robin_m.jpg); }
+  .carousel_seagull { background-image: url(../img/seagull_m.jpg); }
+  .carousel_yellowbird { background-image: url(../img/yellowbird_m.jpg); }
+  .carousel_feathertulip { background-image: url(../img/feathertulip_m.jpg); }
+  .carousel_rose { background-image: url(../img/rose_m.jpg); }
+  .carousel_sunflower { background-image: url(../img/sunflower_m.jpg); }
+  .carousel_tulip { background-image: url(../img/tulip_m.jpg); }
+  .carousel_autumnlake { background-image: url(../img/autumnlake_m.jpg); }
+  .carousel_desert { background-image: url(../img/desert_m.jpg); }
+  .carousel_mountainlake { background-image: url(../img/mountainlake_m.jpg); }
+  .carousel_snowmountains { background-image: url(../img/snowmountains_m.jpg); }
 }
 
 
 @media only screen and (max-width: 320px) {
-	.container { background-image: url(../img/default_s.jpg); }
-	.carousel_bee { background-image: url(../img/bee_s.jpg); }
-	.carousel_butterfly { background-image: url(../img/butterfly_s.jpg); }
-	.carousel_spider { background-image: url(../img/spider_s.jpg); }
-	.carousel_threebutterflies { background-image: url(../img/threebutterflies_s.jpg); }
-	.carousel_owl { background-image: url(../img/owl_s.jpg); }
-	.carousel_robin { background-image: url(../img/robin_s.jpg); }
-	.carousel_seagull { background-image: url(../img/seagull_s.jpg); }
-	.carousel_yellowbird { background-image: url(../img/yellowbird_s.jpg); }
-	.carousel_feathertulip { background-image: url(../img/feathertulip_s.jpg); }
-	.carousel_rose { background-image: url(../img/rose_s.jpg); }
-	.carousel_sunflower { background-image: url(../img/sunflower_s.jpg); }
-	.carousel_tulip { background-image: url(../img/tulip_s.jpg); }
-	.carousel_autumnlake { background-image: url(../img/autumnlake_s.jpg); }
-	.carousel_desert { background-image: url(../img/desert_s.jpg); }
-	.carousel_mountainlake { background-image: url(../img/mountainlake_s.jpg); }
-	.carousel_snowmountains { background-image: url(../img/snowmountains_s.jpg); }
+  .container { background-image: url(../img/default_s.jpg); }
+  .carousel_bee { background-image: url(../img/bee_s.jpg); }
+  .carousel_butterfly { background-image: url(../img/butterfly_s.jpg); }
+  .carousel_spider { background-image: url(../img/spider_s.jpg); }
+  .carousel_threebutterflies { background-image: url(../img/threebutterflies_s.jpg); }
+  .carousel_owl { background-image: url(../img/owl_s.jpg); }
+  .carousel_robin { background-image: url(../img/robin_s.jpg); }
+  .carousel_seagull { background-image: url(../img/seagull_s.jpg); }
+  .carousel_yellowbird { background-image: url(../img/yellowbird_s.jpg); }
+  .carousel_feathertulip { background-image: url(../img/feathertulip_s.jpg); }
+  .carousel_rose { background-image: url(../img/rose_s.jpg); }
+  .carousel_sunflower { background-image: url(../img/sunflower_s.jpg); }
+  .carousel_tulip { background-image: url(../img/tulip_s.jpg); }
+  .carousel_autumnlake { background-image: url(../img/autumnlake_s.jpg); }
+  .carousel_desert { background-image: url(../img/desert_s.jpg); }
+  .carousel_mountainlake { background-image: url(../img/mountainlake_s.jpg); }
+  .carousel_snowmountains { background-image: url(../img/snowmountains_s.jpg); }
 }
 
 
